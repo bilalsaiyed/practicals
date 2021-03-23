@@ -144,6 +144,7 @@ missing_values <- aggr(managers_data, prop = FALSE, numbers = TRUE)
 
 # show summary of the content of missing_values
 summary(missing_values)
+#check
 
 
 
