@@ -14,4 +14,5 @@ md.pattern(diabetes_data)
 library(VIM)
 missing_values <- aggr(diabetes_data, prop = FALSE, numbers = TRUE)
 
+#Summary
 summary(missing_values)
